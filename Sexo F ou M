@@ -1,0 +1,4 @@
+sexo = str(input("Informe seu sexo:[M/F]")).upper()
+while(sexo not in "MF"):
+  sexo = str(input("Sexo invalido, Digite novamente:")).upper()
+print("Sexo {} Registrado com sucesso".format(sexo))
